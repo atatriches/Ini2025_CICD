@@ -1,0 +1,6 @@
+pipeline {
+  agent any
+  enviroment {
+    DOCKER_BUILDKIT=1
+  }
+}
